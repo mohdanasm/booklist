@@ -1,0 +1,132 @@
+body{
+    
+    font-family: "Roboto Condensed", sans-serif;
+}
+.navbar
+{
+    background-color: rgb(220, 26, 26);
+    padding: 10px;
+}
+.container
+{
+    padding: 10px;
+}
+.book-container
+{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.bookcontainer h2{
+    color: rgb(220, 26, 26);
+}
+.book-container button{
+    background-color: rgb(220, 26, 26);
+    border-radius: 10px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 5px;
+}
+.add-button
+{
+    background-color: rgb(220, 26, 26);
+    color: black;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    font-size: 30px;
+    position: fixed;
+    bottom:30px;
+    right: 30px;
+}
+.overlay
+{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+    z-index: 1;
+    display: none;
+}
+.popupbox
+{
+    background-color:  rgb(220, 26, 26);
+    
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.popupbox h2{
+    color: white;
+  
+    
+}
+.popupbox input
+{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+.popupbox textarea
+{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+.popupbox input::placeholder
+{
+    color: black;
+}
+.popupbox textarea::placeholder
+{
+    color: black;
+}
+.popupbox button{
+    background-color: black;
+    color: white;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    border-radius: 2px;
+    border: none;
+    margin:5px;
+
+}
+.popupbox input:focus
+{
+    outline: none;
+}
+.popupbox textarea:focus
+{
+    outline: none;
+}
